@@ -8,6 +8,7 @@ class ProfileAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         const Stack(
           alignment: AlignmentDirectional.bottomEnd,
@@ -19,9 +20,6 @@ class ProfileAvatar extends StatelessWidget {
             ),
             Icon(Icons.photo_camera, size: 20),
           ],
-        ),
-        const SizedBox(
-          width: 15,
         ),
         const Column(
           children: [
@@ -45,11 +43,7 @@ class ProfileAvatar extends StatelessWidget {
                 width: 46,
                 height: 41,
                 child: Image.asset('assets/images/Rect.png')),
-            const Text(
-              '9,7',
-              style: TextStyles.whiteNum,
-              textAlign: TextAlign.center,
-            ),
+            const Text('9,7', style: TextStyles.whiteNum),
           ],
         )
       ],
