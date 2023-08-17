@@ -25,7 +25,7 @@ class AppLists {
   List<String> icon = [
     'assets/images/home.png',
     'assets/images/category.png',
-    'assets/images/messages.png',
+    //'assets/images/messages.png',
     'assets/images/profile.png',
     'assets/images/menu.png',
   ];
@@ -33,7 +33,7 @@ class AppLists {
   List<String> menuName = [
     AppTexts.glavnaya,
     AppTexts.kategoria,
-    AppTexts.chat,
+    //AppTexts.chat,
     AppTexts.profile,
     AppTexts.menu,
   ];
